@@ -19,6 +19,9 @@ namespace Uzduotis05
              * …
              */
 
+            int skaicius1 = 5;
+            int skaicius2 = 4;
+            Console.WriteLine($"{skaicius1} + {skaicius2} = {skaicius1 + skaicius2}");
         }
     }
 }
