@@ -7,7 +7,7 @@ namespace Kintamieji
         static void Main()
         {
             Console.Write("iveskite savo varda");
-            string vardas = Console
+            string vardas = Console.ReadLine();
 
         }
     }
