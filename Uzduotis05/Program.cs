@@ -10,15 +10,9 @@ namespace Uzduotis05
     {
         static void Main(string[] args)
         {
-            /*
-             * Išveskite į ekraną dviejų skaičių sumą, skirtumą, sandaugą ir dalmenį,
-             * kiekvieną kartą nurodant atliekamą veiksmą ir šių skaičių reikšmes.
-             * Pvz.: 
-             * 4 + 5 = 9
-             * 4 - 5 = -1
-             * …
-             */
-
+            int skaicius11 = 4;
+            int skaicius22 = 5;
+            Console.WriteLine($"{skaicius11} + {skaicius22} = {skaicius11 + skaicius22}");
             int skaicius1 = 4;
             int skaicius2 = 5;
             float skaicius3 = 4;
@@ -66,7 +60,7 @@ namespace Uzduotis05
                 Turite gauti: 23, 12, 3.
              */
 
-             // 1 uzduotis 
+            // 1 uzduotis 
 
             int skaicius_a = -1;
             int skaicius_b = 4;
@@ -83,7 +77,7 @@ namespace Uzduotis05
             int skaicius_c1 = 6;
             int skaicius_d1 = 11;
 
-            int rezultatas1 = skaicius_a1 + skaicius_b1 * skaicius_c1 / skaicius_d1 ; //skaiciavimas
+            int rezultatas1 = skaicius_a1 + skaicius_b1 * skaicius_c1 / skaicius_d1; //skaiciavimas
 
             Console.WriteLine($" 2 uzduotis: {skaicius_a1} + {skaicius_b1} * {skaicius_c1} / {skaicius_d1} gauname {rezultatas1}"); // isvestis
 
